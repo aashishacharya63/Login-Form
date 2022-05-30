@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login from</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+<div>
+	<div class="box1">
+		<h1 class ="heading" opacity: 0.3 >Sign Up</h1>
+		<form action="" class="login-form">
+			First Name :<input type="text" placeholder="First Name" id="fname" class="name"><br><br>
+			Last Name:<input type="text" placeholder="Last Name" id="lname" class="name"><br><br>
+			DOB &nbsp&nbsp&nbsp: &nbsp&nbsp&nbsp<input type="date" name="date" class="name"><br><br>
+			
+			Email: <input type="email" placeholder="email" id="email"><br><br>	
+			Gender : <input type="radio" name="gender">Male<br>
+					   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					   <input type="radio" name="gender">Female<br>	
+					   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					   <input type="radio" name="gender"> Others <br><br>  
+
+
+			
+				<label >Enter Captcha : </label><br>
+
+				<div class="form-row">
+					<div class="form-group">
+						<input type="text" class="from-control"  id="capt"readonly>
+					</div>
+					<div class="from-group">
+						<input type="text" class="from-control" id="textinput">
+					</div>
+
+				  </div>		    
+			
+
+
+			<br><br>
+			<div class="form-group">
+				<button onclick="validcap()" class="btn"> Submit</button>
+			</div>
+
+			<p>Already a Member ? <b>Login </b></p>
+
+		</form>
+	</div>
+</div>
+
+</body>
+</html>

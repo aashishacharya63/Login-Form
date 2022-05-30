@@ -1,0 +1,68 @@
+body {
+	background: url("images/bgimage.jpg");
+	background-size :cover;
+	align-items: center;
+	display: flex;
+    background-color: #FED5DB;
+    margin: 10vh 50vh;
+}
+
+
+.box1{
+    height: 500px;
+   opacity: 1;
+    width: 500px;
+    background-color: #e6750b;
+    box-shadow: 10px 10px 10px #fab573,-10PX -10PX 10PX #fab573;
+    border-radius: 30px;
+    text-align: center;
+   }
+.heading{
+	margin-top: 2%;
+	margin-bottom: 10%;
+	
+}
+#email{
+	margin-top: 1px;
+	padding: 20px, 20px;
+	width: 300px;
+	height: 30px;
+	text-decoration-style:solid;
+	 border-radius: 30px;
+	 opacity: 1;
+}
+#password{
+	margin-top: 15px;
+	padding: 20px, 20px;
+	width: 300px;
+	height: 30px;
+	text-decoration-style:solid;
+	 border-radius: 30px;
+}
+
+.submit{
+	margin-top: 10px;
+	padding: 50px, 30px;
+	color: red;
+	height: 30px;
+	width: 150px;
+	border-radius: 30px;
+	color: black;
+	background-color: red;
+}
+.submit:hover{
+	background-color: #80440b;
+	font-weight: bolder;
+		}
+
+.name{
+	margin-top: 1px;
+	padding: 20px, 20px;
+	width: 300px;
+	height: 30px;
+	text-decoration-style:solid;
+	 border-radius: 30px;
+	 opacity: 1;
+
+}		
+
